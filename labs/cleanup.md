@@ -1,8 +1,8 @@
 # Cleanup
 
-## Kubernetes Resources
+## Delete Kubernetes Clusters
 
-Delete the Kubernetes clusters created in the [kubernetes lab](kubernetes-clusters.md).  This will shutdown the clusters and schedule them for deletion.
+Delete the Kubernetes clusters created in the [kubernetes lab](kubernetes-clusters.md).
 
 ```
 ENVIRONMENTS=(
@@ -20,7 +20,7 @@ for e in ${ENVIRONMENTS[@]}; do
 done
 ```
 
-Verify that the information returned is correct, then to *PERMANENTLY DELETE* the Kubernetes clusters:
+Verify that the information returned is correct, then to **PERMANENTLY DELETE** the Kubernetes clusters:
 
 ```
 for e in ${ENVIRONMENTS[@]}; do
