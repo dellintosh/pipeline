@@ -2,7 +2,7 @@
 
 ## Kubernetes Resources
 
-Delete the Kubernetes clusters created in the [kubernetes lab](kubernetes-clusteres.md).  This will shutdown the clusters and schedule them for deletion.
+Delete the Kubernetes clusters created in the [kubernetes lab](kubernetes-clusters.md).  This will shutdown the clusters and schedule them for deletion.
 
 ## Delete GitHub Repositories
 
