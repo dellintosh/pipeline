@@ -25,7 +25,7 @@ HUB_CONFIG="${PWD}/hub"
 
 In this section you will encrypt the hub configuration file using the [AWS Key Management Service](https://aws.amazon.com/kms/) (KMS) and upload the encrypted file to a [Amazon S3](https://aws.amazon.com/s3) bucket. Performing these tasks will make the hub configuration file securely available to any automated build steps performed by Drone.
 
-### Create a KMS Keyring and Encryption Key
+### Create a KMS Encryption Key
 
 A KMS encryption key is required to encrypt the hub configuration file.
 
