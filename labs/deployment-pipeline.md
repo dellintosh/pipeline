@@ -11,7 +11,7 @@ Take a moment to study the Drone CI build config files (`.drone.yml`) across the
 
 ## High Level Diagram
 
-Coming soon.
+![Application Flow image](images/pipeline-application-flow.png)
 
 ## High Level Text Description
 
